@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9401E3672986AF18005C7653 /* AlarmiOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9401E3662986AF18005C7653 /* AlarmiOSAppApp.swift */; };
-		9401E3692986AF18005C7653 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9401E3682986AF18005C7653 /* ContentView.swift */; };
+		9401E3692986AF18005C7653 /* MainAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9401E3682986AF18005C7653 /* MainAlarmView.swift */; };
 		9401E36B2986AF19005C7653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9401E36A2986AF19005C7653 /* Assets.xcassets */; };
 		9401E36E2986AF19005C7653 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9401E36D2986AF19005C7653 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		9401E3632986AF18005C7653 /* AlarmiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9401E3662986AF18005C7653 /* AlarmiOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmiOSAppApp.swift; sourceTree = "<group>"; };
-		9401E3682986AF18005C7653 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9401E3682986AF18005C7653 /* MainAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAlarmView.swift; sourceTree = "<group>"; };
 		9401E36A2986AF19005C7653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9401E36D2986AF19005C7653 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				9401E3662986AF18005C7653 /* AlarmiOSAppApp.swift */,
-				9401E3682986AF18005C7653 /* ContentView.swift */,
+				9401E3682986AF18005C7653 /* MainAlarmView.swift */,
 				9401E36A2986AF19005C7653 /* Assets.xcassets */,
 				9401E36C2986AF19005C7653 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9401E3692986AF18005C7653 /* ContentView.swift in Sources */,
+				9401E3692986AF18005C7653 /* MainAlarmView.swift in Sources */,
 				9401E3672986AF18005C7653 /* AlarmiOSAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
