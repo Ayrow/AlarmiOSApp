@@ -11,6 +11,7 @@
 		9401E3692986AF18005C7653 /* MainAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9401E3682986AF18005C7653 /* MainAlarmView.swift */; };
 		9401E36B2986AF19005C7653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9401E36A2986AF19005C7653 /* Assets.xcassets */; };
 		9401E36E2986AF19005C7653 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9401E36D2986AF19005C7653 /* Preview Assets.xcassets */; };
+		94A303742987B5F500F9A2F6 /* GrayedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A303732987B5F500F9A2F6 /* GrayedTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9401E3682986AF18005C7653 /* MainAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAlarmView.swift; sourceTree = "<group>"; };
 		9401E36A2986AF19005C7653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9401E36D2986AF19005C7653 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94A303732987B5F500F9A2F6 /* GrayedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayedTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,14 @@
 		9401E3652986AF18005C7653 /* AlarmiOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				94A3036E2987B58900F9A2F6 /* Model */,
+				94A3036D2987B58000F9A2F6 /* ViewModel */,
+				94A3036C2987B56700F9A2F6 /* Views */,
+				94A3036B2987B56000F9A2F6 /* Constants */,
+				94A3036A2987B55200F9A2F6 /* Fonts */,
+				94A303692987B54300F9A2F6 /* Time and Date */,
+				94A303682987B4FE00F9A2F6 /* Local Notifications */,
+				94A303672987B4F000F9A2F6 /* Sounds */,
 				9401E3662986AF18005C7653 /* AlarmiOSAppApp.swift */,
 				9401E3682986AF18005C7653 /* MainAlarmView.swift */,
 				9401E36A2986AF19005C7653 /* Assets.xcassets */,
@@ -65,6 +75,95 @@
 				9401E36D2986AF19005C7653 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94A303672987B4F000F9A2F6 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		94A303682987B4FE00F9A2F6 /* Local Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Notifications";
+			sourceTree = "<group>";
+		};
+		94A303692987B54300F9A2F6 /* Time and Date */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Time and Date";
+			sourceTree = "<group>";
+		};
+		94A3036A2987B55200F9A2F6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		94A3036B2987B56000F9A2F6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		94A3036C2987B56700F9A2F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94A303722987B5C900F9A2F6 /* Unused Views */,
+				94A303712987B5B000F9A2F6 /* Supporting Views */,
+				94A303702987B5A700F9A2F6 /* Sub Views */,
+				94A3036F2987B59600F9A2F6 /* Main Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94A3036D2987B58000F9A2F6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		94A3036E2987B58900F9A2F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		94A3036F2987B59600F9A2F6 /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
+		94A303702987B5A700F9A2F6 /* Sub Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Sub Views";
+			sourceTree = "<group>";
+		};
+		94A303712987B5B000F9A2F6 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				94A303732987B5F500F9A2F6 /* GrayedTextView.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		94A303722987B5C900F9A2F6 /* Unused Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Unused Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +238,7 @@
 			files = (
 				9401E3692986AF18005C7653 /* MainAlarmView.swift in Sources */,
 				9401E3672986AF18005C7653 /* AlarmiOSAppApp.swift in Sources */,
+				94A303742987B5F500F9A2F6 /* GrayedTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
