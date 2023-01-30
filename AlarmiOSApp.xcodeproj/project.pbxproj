@@ -17,6 +17,9 @@
 		94A303822987BB9300F9A2F6 /* TimeOfDayIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A303812987BB9300F9A2F6 /* TimeOfDayIcon.swift */; };
 		94A303842987BC3500F9A2F6 /* TimeAndDateSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A303832987BC3500F9A2F6 /* TimeAndDateSupport.swift */; };
 		94A303862987C9D300F9A2F6 /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A303852987C9D300F9A2F6 /* TimeModel.swift */; };
+		94A303882987CCD700F9A2F6 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A303872987CCD700F9A2F6 /* AlarmModel.swift */; };
+		94A3038A2987CE9B00F9A2F6 /* Activity Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A303892987CE9B00F9A2F6 /* Activity Constants.swift */; };
+		94A3038C2987CF0100F9A2F6 /* Sound Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A3038B2987CF0100F9A2F6 /* Sound Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		94A303812987BB9300F9A2F6 /* TimeOfDayIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOfDayIcon.swift; sourceTree = "<group>"; };
 		94A303832987BC3500F9A2F6 /* TimeAndDateSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAndDateSupport.swift; sourceTree = "<group>"; };
 		94A303852987C9D300F9A2F6 /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
+		94A303872987CCD700F9A2F6 /* AlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
+		94A303892987CE9B00F9A2F6 /* Activity Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Activity Constants.swift"; sourceTree = "<group>"; };
+		94A3038B2987CF0100F9A2F6 /* Sound Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sound Constants.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,7 @@
 		94A303672987B4F000F9A2F6 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				94A3038B2987CF0100F9A2F6 /* Sound Constants.swift */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -125,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				94A3037F2987BABB00F9A2F6 /* Color Constants.swift */,
+				94A303892987CE9B00F9A2F6 /* Activity Constants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -151,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				94A303852987C9D300F9A2F6 /* TimeModel.swift */,
+				94A303872987CCD700F9A2F6 /* AlarmModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -260,10 +269,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94A3038C2987CF0100F9A2F6 /* Sound Constants.swift in Sources */,
 				94A303802987BABB00F9A2F6 /* Color Constants.swift in Sources */,
+				94A303882987CCD700F9A2F6 /* AlarmModel.swift in Sources */,
 				9401E3692986AF18005C7653 /* MainAlarmView.swift in Sources */,
 				94A303842987BC3500F9A2F6 /* TimeAndDateSupport.swift in Sources */,
 				94A303862987C9D300F9A2F6 /* TimeModel.swift in Sources */,
+				94A3038A2987CE9B00F9A2F6 /* Activity Constants.swift in Sources */,
 				9401E3672986AF18005C7653 /* AlarmiOSAppApp.swift in Sources */,
 				94A303742987B5F500F9A2F6 /* GrayedTextView.swift in Sources */,
 				94A303822987BB9300F9A2F6 /* TimeOfDayIcon.swift in Sources */,
