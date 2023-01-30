@@ -16,6 +16,7 @@
 		94A303802987BABB00F9A2F6 /* Color Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A3037F2987BABB00F9A2F6 /* Color Constants.swift */; };
 		94A303822987BB9300F9A2F6 /* TimeOfDayIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A303812987BB9300F9A2F6 /* TimeOfDayIcon.swift */; };
 		94A303842987BC3500F9A2F6 /* TimeAndDateSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A303832987BC3500F9A2F6 /* TimeAndDateSupport.swift */; };
+		94A303862987C9D300F9A2F6 /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A303852987C9D300F9A2F6 /* TimeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		94A3037F2987BABB00F9A2F6 /* Color Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color Constants.swift"; sourceTree = "<group>"; };
 		94A303812987BB9300F9A2F6 /* TimeOfDayIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOfDayIcon.swift; sourceTree = "<group>"; };
 		94A303832987BC3500F9A2F6 /* TimeAndDateSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAndDateSupport.swift; sourceTree = "<group>"; };
+		94A303852987C9D300F9A2F6 /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 		94A3036E2987B58900F9A2F6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				94A303852987C9D300F9A2F6 /* TimeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				94A303802987BABB00F9A2F6 /* Color Constants.swift in Sources */,
 				9401E3692986AF18005C7653 /* MainAlarmView.swift in Sources */,
 				94A303842987BC3500F9A2F6 /* TimeAndDateSupport.swift in Sources */,
+				94A303862987C9D300F9A2F6 /* TimeModel.swift in Sources */,
 				9401E3672986AF18005C7653 /* AlarmiOSAppApp.swift in Sources */,
 				94A303742987B5F500F9A2F6 /* GrayedTextView.swift in Sources */,
 				94A303822987BB9300F9A2F6 /* TimeOfDayIcon.swift in Sources */,
