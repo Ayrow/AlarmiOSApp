@@ -12,6 +12,7 @@
 		9401E36B2986AF19005C7653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9401E36A2986AF19005C7653 /* Assets.xcassets */; };
 		9401E36E2986AF19005C7653 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9401E36D2986AF19005C7653 /* Preview Assets.xcassets */; };
 		94A303742987B5F500F9A2F6 /* GrayedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A303732987B5F500F9A2F6 /* GrayedTextView.swift */; };
+		94A303772987B82B00F9A2F6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94A303792987B82B00F9A2F6 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,11 @@
 		9401E36A2986AF19005C7653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9401E36D2986AF19005C7653 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		94A303732987B5F500F9A2F6 /* GrayedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayedTextView.swift; sourceTree = "<group>"; };
+		94A303782987B82B00F9A2F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		94A3037B2987B84800F9A2F6 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		94A3037C2987B84A00F9A2F6 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		94A3037D2987B84B00F9A2F6 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		94A3037E2987B84D00F9A2F6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,7 @@
 				9401E3682986AF18005C7653 /* MainAlarmView.swift */,
 				9401E36A2986AF19005C7653 /* Assets.xcassets */,
 				9401E36C2986AF19005C7653 /* Preview Content */,
+				94A303792987B82B00F9A2F6 /* Localizable.strings */,
 			);
 			path = AlarmiOSApp;
 			sourceTree = "<group>";
@@ -208,6 +215,10 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				it,
+				es,
+				de,
 			);
 			mainGroup = 9401E35A2986AF18005C7653;
 			productRefGroup = 9401E3642986AF18005C7653 /* Products */;
@@ -225,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9401E36E2986AF19005C7653 /* Preview Assets.xcassets in Resources */,
+				94A303772987B82B00F9A2F6 /* Localizable.strings in Resources */,
 				9401E36B2986AF19005C7653 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +255,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94A303792987B82B00F9A2F6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94A303782987B82B00F9A2F6 /* en */,
+				94A3037B2987B84800F9A2F6 /* fr */,
+				94A3037C2987B84A00F9A2F6 /* de */,
+				94A3037D2987B84B00F9A2F6 /* it */,
+				94A3037E2987B84D00F9A2F6 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9401E36F2986AF19005C7653 /* Debug */ = {

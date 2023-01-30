@@ -2,7 +2,7 @@
 import SwiftUI
 
 struct GrayedTextView: View {
-    let text: LocalizedStringKey
+    let text: String
     var font = Font.headline
     
     var body: some View {
