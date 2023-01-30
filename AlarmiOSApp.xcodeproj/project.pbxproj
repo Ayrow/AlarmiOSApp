@@ -14,6 +14,8 @@
 		94A303742987B5F500F9A2F6 /* GrayedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A303732987B5F500F9A2F6 /* GrayedTextView.swift */; };
 		94A303772987B82B00F9A2F6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94A303792987B82B00F9A2F6 /* Localizable.strings */; };
 		94A303802987BABB00F9A2F6 /* Color Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A3037F2987BABB00F9A2F6 /* Color Constants.swift */; };
+		94A303822987BB9300F9A2F6 /* TimeOfDayIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A303812987BB9300F9A2F6 /* TimeOfDayIcon.swift */; };
+		94A303842987BC3500F9A2F6 /* TimeAndDateSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A303832987BC3500F9A2F6 /* TimeAndDateSupport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		94A3037D2987B84B00F9A2F6 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		94A3037E2987B84D00F9A2F6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		94A3037F2987BABB00F9A2F6 /* Color Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color Constants.swift"; sourceTree = "<group>"; };
+		94A303812987BB9300F9A2F6 /* TimeOfDayIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOfDayIcon.swift; sourceTree = "<group>"; };
+		94A303832987BC3500F9A2F6 /* TimeAndDateSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAndDateSupport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 		94A303692987B54300F9A2F6 /* Time and Date */ = {
 			isa = PBXGroup;
 			children = (
+				94A303832987BC3500F9A2F6 /* TimeAndDateSupport.swift */,
 			);
 			path = "Time and Date";
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				94A303732987B5F500F9A2F6 /* GrayedTextView.swift */,
+				94A303812987BB9300F9A2F6 /* TimeOfDayIcon.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -253,8 +259,10 @@
 			files = (
 				94A303802987BABB00F9A2F6 /* Color Constants.swift in Sources */,
 				9401E3692986AF18005C7653 /* MainAlarmView.swift in Sources */,
+				94A303842987BC3500F9A2F6 /* TimeAndDateSupport.swift in Sources */,
 				9401E3672986AF18005C7653 /* AlarmiOSAppApp.swift in Sources */,
 				94A303742987B5F500F9A2F6 /* GrayedTextView.swift in Sources */,
+				94A303822987BB9300F9A2F6 /* TimeOfDayIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
