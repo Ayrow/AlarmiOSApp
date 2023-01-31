@@ -12,6 +12,7 @@
 		9401E36B2986AF19005C7653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9401E36A2986AF19005C7653 /* Assets.xcassets */; };
 		9401E36E2986AF19005C7653 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9401E36D2986AF19005C7653 /* Preview Assets.xcassets */; };
 		947DCDCE2989567F001693C4 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947DCDCD2989567F001693C4 /* SplashScreenView.swift */; };
+		947DCDD02989589F001693C4 /* FourCoolCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947DCDCF2989589F001693C4 /* FourCoolCircles.swift */; };
 		94A303742987B5F500F9A2F6 /* GrayedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A303732987B5F500F9A2F6 /* GrayedTextView.swift */; };
 		94A303772987B82B00F9A2F6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94A303792987B82B00F9A2F6 /* Localizable.strings */; };
 		94A303802987BABB00F9A2F6 /* Color Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A3037F2987BABB00F9A2F6 /* Color Constants.swift */; };
@@ -30,6 +31,7 @@
 		9401E36A2986AF19005C7653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9401E36D2986AF19005C7653 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		947DCDCD2989567F001693C4 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		947DCDCF2989589F001693C4 /* FourCoolCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourCoolCircles.swift; sourceTree = "<group>"; };
 		94A303732987B5F500F9A2F6 /* GrayedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayedTextView.swift; sourceTree = "<group>"; };
 		94A303782987B82B00F9A2F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		94A3037B2987B84800F9A2F6 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -84,7 +86,6 @@
 				94A303682987B4FE00F9A2F6 /* Local Notifications */,
 				94A303672987B4F000F9A2F6 /* Sounds */,
 				9401E3662986AF18005C7653 /* AlarmiOSAppApp.swift */,
-				9401E3682986AF18005C7653 /* MainAlarmView.swift */,
 				9401E36A2986AF19005C7653 /* Assets.xcassets */,
 				9401E36C2986AF19005C7653 /* Preview Content */,
 				94A303792987B82B00F9A2F6 /* Localizable.strings */,
@@ -169,6 +170,7 @@
 		94A3036F2987B59600F9A2F6 /* Main Views */ = {
 			isa = PBXGroup;
 			children = (
+				9401E3682986AF18005C7653 /* MainAlarmView.swift */,
 				947DCDCD2989567F001693C4 /* SplashScreenView.swift */,
 			);
 			path = "Main Views";
@@ -186,6 +188,7 @@
 			children = (
 				94A303732987B5F500F9A2F6 /* GrayedTextView.swift */,
 				94A303812987BB9300F9A2F6 /* TimeOfDayIcon.swift */,
+				947DCDCF2989589F001693C4 /* FourCoolCircles.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				94A3038A2987CE9B00F9A2F6 /* Activity Constants.swift in Sources */,
 				9401E3672986AF18005C7653 /* AlarmiOSAppApp.swift in Sources */,
 				94A303742987B5F500F9A2F6 /* GrayedTextView.swift in Sources */,
+				947DCDD02989589F001693C4 /* FourCoolCircles.swift in Sources */,
 				94A303822987BB9300F9A2F6 /* TimeOfDayIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
