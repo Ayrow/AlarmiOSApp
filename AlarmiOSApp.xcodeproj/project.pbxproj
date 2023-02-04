@@ -11,6 +11,7 @@
 		9401E3692986AF18005C7653 /* MainAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9401E3682986AF18005C7653 /* MainAlarmView.swift */; };
 		9401E36B2986AF19005C7653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9401E36A2986AF19005C7653 /* Assets.xcassets */; };
 		9401E36E2986AF19005C7653 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9401E36D2986AF19005C7653 /* Preview Assets.xcassets */; };
+		9470A9D4298E719B001CF6C9 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470A9D3298E719B001CF6C9 /* AboutView.swift */; };
 		947DCDCE2989567F001693C4 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947DCDCD2989567F001693C4 /* SplashScreenView.swift */; };
 		947DCDD02989589F001693C4 /* FourCoolCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947DCDCF2989589F001693C4 /* FourCoolCircles.swift */; };
 		947DCDD429895DBE001693C4 /* CoolTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947DCDD329895DBE001693C4 /* CoolTextView.swift */; };
@@ -36,6 +37,7 @@
 		9401E3682986AF18005C7653 /* MainAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAlarmView.swift; sourceTree = "<group>"; };
 		9401E36A2986AF19005C7653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9401E36D2986AF19005C7653 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9470A9D3298E719B001CF6C9 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		947DCDCD2989567F001693C4 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		947DCDCF2989589F001693C4 /* FourCoolCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourCoolCircles.swift; sourceTree = "<group>"; };
 		947DCDD129895DA2001693C4 /* WorkSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 			children = (
 				9401E3682986AF18005C7653 /* MainAlarmView.swift */,
 				947DCDCD2989567F001693C4 /* SplashScreenView.swift */,
+				9470A9D3298E719B001CF6C9 /* AboutView.swift */,
 			);
 			path = "Main Views";
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				9401E3672986AF18005C7653 /* AlarmiOSAppApp.swift in Sources */,
 				947DCDD829896380001693C4 /* EnableNotifications.swift in Sources */,
 				94A303742987B5F500F9A2F6 /* GrayedTextView.swift in Sources */,
+				9470A9D4298E719B001CF6C9 /* AboutView.swift in Sources */,
 				947DCDD02989589F001693C4 /* FourCoolCircles.swift in Sources */,
 				94A303822987BB9300F9A2F6 /* TimeOfDayIcon.swift in Sources */,
 			);
