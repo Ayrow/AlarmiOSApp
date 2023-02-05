@@ -23,7 +23,7 @@ struct AddEditAlarmView: View {
                     YouDidItView()
                 }
                 
-                Text("ToBedWakeUpView")
+                ToBedWakeUpView(currentAlarmIndex: currentAlarmIndex, alarmModel: alarmModel)
             }
         }
         .onAppear {
