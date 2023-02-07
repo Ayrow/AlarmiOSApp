@@ -24,7 +24,7 @@ struct CancelSaveAlarmView: View {
             
             Button {
                 // Save todo
-                if let currentAlarmIndex = currentAlarmIndex {
+                if currentAlarmIndex != nil {
                     // TODO: Edit alarm to view model
                 } else {
                     // TODO: Append alarm to view model
