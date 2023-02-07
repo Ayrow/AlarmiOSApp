@@ -27,6 +27,7 @@
 		94823FB9298FB9C400908689 /* AlarmToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94823FB8298FB9C400908689 /* AlarmToggleView.swift */; };
 		94823FBB298FBA7600908689 /* TheToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94823FBA298FBA7600908689 /* TheToggleView.swift */; };
 		948376D32992934A0010527C /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948376D22992934A0010527C /* TimePicker.swift */; };
+		948376D52992949C0010527C /* SelectActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948376D42992949C0010527C /* SelectActivityView.swift */; };
 		94A303742987B5F500F9A2F6 /* GrayedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A303732987B5F500F9A2F6 /* GrayedTextView.swift */; };
 		94A303772987B82B00F9A2F6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94A303792987B82B00F9A2F6 /* Localizable.strings */; };
 		94A303802987BABB00F9A2F6 /* Color Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A3037F2987BABB00F9A2F6 /* Color Constants.swift */; };
@@ -62,6 +63,7 @@
 		94823FB8298FB9C400908689 /* AlarmToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmToggleView.swift; sourceTree = "<group>"; };
 		94823FBA298FBA7600908689 /* TheToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheToggleView.swift; sourceTree = "<group>"; };
 		948376D22992934A0010527C /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
+		948376D42992949C0010527C /* SelectActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectActivityView.swift; sourceTree = "<group>"; };
 		94A303732987B5F500F9A2F6 /* GrayedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayedTextView.swift; sourceTree = "<group>"; };
 		94A303782987B82B00F9A2F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		94A3037B2987B84800F9A2F6 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 				94823FB8298FB9C400908689 /* AlarmToggleView.swift */,
 				94823FBA298FBA7600908689 /* TheToggleView.swift */,
 				948376D22992934A0010527C /* TimePicker.swift */,
+				948376D42992949C0010527C /* SelectActivityView.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				9470A9D4298E719B001CF6C9 /* AboutView.swift in Sources */,
 				947DCDD02989589F001693C4 /* FourCoolCircles.swift in Sources */,
 				94823FB3298FB05D00908689 /* YouDidItView.swift in Sources */,
+				948376D52992949C0010527C /* SelectActivityView.swift in Sources */,
 				94A303822987BB9300F9A2F6 /* TimeOfDayIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
