@@ -47,7 +47,7 @@ struct ToBedWakeUpView: View {
                             .foregroundColor(alarmModel.activityColor)
                             .font(.headline)
                         
-                        Text("SelectActivityView")
+                        SelectActivityView(currentColorIndex: $alarmModel.colorIndex, currentActivity: $alarmModel.activity)
                     }
                     .padding(.vertical)
                     
@@ -60,7 +60,7 @@ struct ToBedWakeUpView: View {
                     }
                     
                     GridRow {
-                        TimeOfDayIcon(date: alarmModel.start)
+                        TimeOfDayIcon(date: alarmModel.end)
                             .font(.largeTitle)
                         
                         VStack(alignment: .leading) {
